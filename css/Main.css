@@ -1,63 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 
 
 body {
   background-color: black;
   margin: 0;
+animation: fadebackground 6s  ;
 }
-
-
-.line1 {
-position: absolute;
-width: 0.2px;
-height:600px;
-left: 27%;
-background-color: white;
-top: 20px;
-}
-.line2 {
-position: absolute;
-width: 700px;
-height:1px;
-background-color: white;
-top: 500px;
-left:22%;
-}
-.line3 {
-position: absolute;
-width: 700px;
-height:1px;
-background-color: white;
-top: 270px;
-right:20%;
-}
-.sectionnumber1 {
-  height: 900px;
-}
-.sectionnumber1 h1 {
-  font-family: 'DM Serif Display', serif;
-
-color: white;
-text-align: center;
-line-height: 500px;
-  font-size: 10em;
-}
-
-.sectionnumber1 p {
-  position: relative;
-  font-family: 'DM Serif Display', serif;
-color: white;
-text-align: center;
-  font-size: 3em;
-  top: -300px;
+@keyframes fadebackground {
+from {background-color:black; opacity: 0%}
+to {}
 }
 
 
 
-.sectionnumber2 {
-    background-color: #413962;
-      height:1000px;
-      left: 0%;
-      width:100%;
 
+@media screen and (max-width:1100px) {
+  .line1 {
+    opacity: 0%;
+  }
+  .line2 {
+    opacity: 0%;
+  }
+  .line3 {
+    opacity: 0%;
+  }
+  .sectionnumber1 h1 {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: left;
+    line-height: 500px;
+    font-size: 7em;
+      margin-left: 20px;
+  }
+  .sectionnumber1 p {
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    top: -260px;
+    margin-left: 20px;
+  }
+  .sectionnumber1 {
+    height: 700px;
+  }
+
+  .sectionnumber2 {
+    background-color:white;
+    height:800px;
+    width:100%;
+  }
+
+  .titlepresentation {
+
+  }
+  .titlepresentation h1 {
+    position: absolute;
+    left:50px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 40px;
+
+  }
+  .titlepresentation p {
+    position: absolute;
+    left: 50px;
+    margin-top: 120px;
+    width:90%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+  }
+  .Sommaire h1{
+    position: absolute;
+    left: 50px;
+    margin-top: 300px;
+    font-family: 'DM Serif Display', serif;
+  }
+  .Sommaire p {
+    position: absolute;
+    left: 50px;
+    margin-top: 370px;
+    width: 350px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+  line-height: 35px;
+  }
+}
+
+
+
+@media screen and (min-width:1100px){
+
+  .line2 {
+    position: absolute;
+    width: 700px;
+    height:1px;
+    background-color: white;
+    top: 500px;
+    left:22%;
+  }
+  .line3 {
+    position: absolute;
+    width: 700px;
+    height:1px;
+    background-color: white;
+    top: 270px;
+    right:20%;
+  }
+  .sectionnumber1 h1 {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+    font-size: 10em;
+  }
+  .sectionnumber1 p {
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    top: -300px;
+  }
+  .sectionnumber1 {
+    height: 1080px;
+  }
+
+  .sectionnumber2 {
+    background-color:white;
+    height:1200px;
+    width:100%;
+  }
+
+  .titlepresentation {
+
+  }
+  .titlepresentation h1 {
+    position: absolute;
+    left:220px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 100px;
+
+  }
+  .titlepresentation p {
+    position: absolute;
+    left: 220px;
+    margin-top: 180px;
+    width: 250px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+  }
+  .Sommaire h1{
+    position: absolute;
+    right: 368px;
+    margin-top: 300px;
+    font-family: 'DM Serif Display', serif;
+  }
+  .Sommaire p {
+    position: absolute;
+    right: 175px;
+    margin-top: 380px;
+    width: 350px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+  line-height: 35px;
+  }
 }

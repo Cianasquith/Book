@@ -1,0 +1,67 @@
+#sectionnumber3p1 {
+
+}
+.classsectionnumber3p1 {
+  background-color: black;
+    height:1080px;
+    left: 0%;
+    width:100%;
+}
+.blackblockp1 {
+  height: 100px
+}
+
+
+.p1img1 {
+  position: absolute;
+right: 100px;
+
+}
+
+.p1img2 {
+  position: absolute;
+  right: 800px;
+    margin-top: -30px;
+}
+.p1img3 {
+  position: absolute;
+  right: 800px;
+  margin-top:270px;
+}
+
+.p1img4 {
+  position: absolute;
+  right: 800px;
+  margin-top: 570px;
+}
+
+.textp1 {
+  position: absolute;
+  color: white;
+  left: 50px;
+}
+
+.textp1 h1 {
+  left:50px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.textp1 h2 {
+  left:50px;
+  font-family: 'Quicksand', serif;
+  font-weight: 300;
+}
+
+.textp1 p {
+  left:50px;
+  font-family: 'Quicksand', serif;
+  font-weight: 300;
+    font-size: 20px;
+    width: 350px;
+}
+
+.sectionnumber4p1 {
+    height:1080px;
+    left: 0%;
+    width:100%;
+}
